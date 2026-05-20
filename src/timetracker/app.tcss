@@ -1,0 +1,37 @@
+/* Global app styles for timecatcher */
+
+Screen {
+    background: $background;
+}
+
+.section-title {
+    text-style: bold;
+    color: $accent;
+    margin-bottom: 1;
+}
+
+.stat-label {
+    color: $text-muted;
+}
+
+.stat-value {
+    text-style: bold;
+    color: $success;
+}
+
+Header {
+    background: $accent;
+    color: $background;
+}
+
+Footer {
+    background: $panel;
+}
+
+Button.-success {
+    background: $success;
+}
+
+Button.-primary {
+    background: $accent;
+}

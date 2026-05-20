@@ -15,6 +15,7 @@ from .screens.history import HistoryScreen
 
 class TimeTrackerApp(App):
     TITLE = "timecatcher"
+    CSS_PATH = "app.tcss"
     BINDINGS = [
         Binding("d", "push_screen('dashboard')", "Dashboard", show=True),
         Binding("g", "push_screen('goals')", "Goals", show=True),
